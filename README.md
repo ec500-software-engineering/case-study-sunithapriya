@@ -50,3 +50,16 @@ Additional prerequisites for Linux:
 * Python 2.7 or later
 *	Docker (for automated testing)
 
+
+## 2. Testing
+### a. Meaningful Tests?
+Tests are maintained with TensorFlow, in files next to the code. The tests are invocable in the standard way for the build system (bazel or cmake). Since TensorFlow is written in at least two languages (not counting the language bindings), language level testing doesn't make as much sense.
+
+### b. Continuous Integration
+To verify that new changes don’t break TensorFlow,  builds and tests are run, on either Jenkins or a CI system internal to Google.
+The builds and tests are triggered on updates to master or on each pull request. Repository maintainers need to be contacted in order to trigger builds on pull requests.
+There are two options when running TensorFlow tests locally on machine. 
+First, using docker, one can run the Continuous Integration (CI) scripts on tensorflow devel images. 
+The other option is to install all TensorFlow dependencies on the machine and run the scripts natively on the system.
+
+
