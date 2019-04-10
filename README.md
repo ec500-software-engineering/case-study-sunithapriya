@@ -65,4 +65,10 @@ The other option is to install all TensorFlow dependencies on the machine and ru
 ### c. Computing platforms
 Linux, macOS, windows Raspberry pi
 
+## 3. Software Architecture
+Tensorflow can be used as a standalone program to build models. It allows developers to create large-scale neural networks with many layers. It is mainly used for: Classification, Perception, Understanding, Discovering, Prediction and Creation. Tensorflow can also be used with other projects. For example a project on object recognition can use OpenCV and tensorflow.
+
+![layers](https://user-images.githubusercontent.com/43215312/55850985-c8f59a00-5b24-11e9-8e87-374d4c0ed788.png)  
+Fig. General Architecture of TensorFlow
+
 
