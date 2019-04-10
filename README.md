@@ -63,12 +63,14 @@ First, using docker, one can run the Continuous Integration (CI) scripts on tens
 The other option is to install all TensorFlow dependencies on the machine and run the scripts natively on the system.
 
 ### c. Computing platforms
-Linux, macOS, windows Raspberry pi
+Linux, macOS, windows Raspberry pi, Android
 
 ## 3. Software Architecture
 Tensorflow can be used as a standalone program to build models. It allows developers to create large-scale neural networks with many layers. It is mainly used for: Classification, Perception, Understanding, Discovering, Prediction and Creation. Tensorflow can also be used with other projects. For example a project on object recognition can use OpenCV and tensorflow.
 
 ![layers](https://user-images.githubusercontent.com/43215312/55850985-c8f59a00-5b24-11e9-8e87-374d4c0ed788.png)  
-Fig. General Architecture of TensorFlow
+Fig. General Architecture of TensorFlow  
 
+Tensorflow code can be modified and extended for scaling and flexibility.  
+To contribute to tensorflow, one must follow the contribution guidelines (https://github.com/tensorflow/tensorflow/blob/master/CONTRIBUTING.md)
 
