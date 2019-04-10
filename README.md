@@ -74,3 +74,9 @@ Fig. General Architecture of TensorFlow
 Tensorflow code can be modified and extended for scaling and flexibility.  
 To contribute to tensorflow, one must follow the contribution guidelines (https://github.com/tensorflow/tensorflow/blob/master/CONTRIBUTING.md)
 
+
+Asynchronous kernels provide a way for a callback to be called when computation is complete, instead of waiting for the computation to finish. Queuing constructs are available in TensorFlow for asynchronous computation. When one graph node is done producing its output, it can queue that data and the consumer node can dequeue it later when it is ready. Similarly, some data can be prefetched to the queues so that the device an begin working on it as soon as it is done with previous computation. 
+
+
+Tensorflow is an object oriented library 
+
