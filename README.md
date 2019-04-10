@@ -53,7 +53,7 @@ Additional prerequisites for Linux:
 
 ## 2. Testing
 ### a. Meaningful Tests?
-Tests are maintained with TensorFlow, in files next to the code. The tests are invocable in the standard way for the build system (bazel or cmake). Since TensorFlow is written in at least two languages (not counting the language bindings), language level testing doesn't make as much sense.
+Tests are maintained with TensorFlow, in files next to the code. The tests are invocable in the standard way for the build system (bazel or cmake). Since TensorFlow is written in at least two languages (not counting the language bindings), language level testing doesn't make as much sense. The website Coveralls (https://coveralls.io/github/tensorflow/lucid?branch=master) provides the code coverage for tensorflow builds. However, the website is not mentioned in there github. Code Coverage is above 90% for non-contrib TensorFlow.
 
 ### b. Continuous Integration
 To verify that new changes don’t break TensorFlow,  builds and tests are run, on either Jenkins or a CI system internal to Google.
@@ -61,5 +61,8 @@ The builds and tests are triggered on updates to master or on each pull request.
 There are two options when running TensorFlow tests locally on machine. 
 First, using docker, one can run the Continuous Integration (CI) scripts on tensorflow devel images. 
 The other option is to install all TensorFlow dependencies on the machine and run the scripts natively on the system.
+
+### c. Computing platforms
+Linux, macOS, windows Raspberry pi
 
 
