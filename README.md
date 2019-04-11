@@ -80,7 +80,7 @@ Asynchronous kernels provide a way for a callback to be called when computation 
 
 Tensorflow is an object oriented library.
 
-## 2. Defects
+## 4. Defects
 I analyzed the following two issues and suggsted a solution for one of them:
 
 * Issue #27720 (https://github.com/tensorflow/tensorflow/issues/27720):
@@ -95,5 +95,7 @@ I therefore suggested the user to build the higher version for TensorFlow from b
   Analyzed a closed issue to determine if there was any architecture or function change. The issue states that custom plugins failed to build. The problem was identified that .inc header was missed while creating the pip package. The solution is a code change to include the .inc headers
   <img width="730" alt="Screen Shot 2019-04-11 at 6 16 37 PM" src="https://user-images.githubusercontent.com/43215312/55996644-0291e680-5c86-11e9-8652-65a5e6475998.png">
 
-
+## 5. Demonstration
+Created a classification model using TensorFlow to classify dogs and cats
+<img width="431" alt="Screen Shot 2019-04-11 at 6 19 29 PM" src="https://user-images.githubusercontent.com/43215312/55996827-9663b280-5c86-11e9-9812-753aa687f70c.png">
 
