@@ -91,4 +91,9 @@ I analyzed the following two issues and suggsted a solution for one of them:
 I therefore suggested the user to build the higher version for TensorFlow from build  
 <img width="652" alt="Screen Shot 2019-04-11 at 5 52 29 PM" src="https://user-images.githubusercontent.com/43215312/55996390-43d5c680-5c85-11e9-9ade-d6d5afed81b3.png">
 
+* Issue #27697 (https://github.com/tensorflow/models/issues/2577)
+  Analyzed a closed issue to determine if there was any architecture or function change. The issue states that custom plugins failed to build. The problem was identified that .inc header was missed while creating the pip package. The solution is a code change to include the .inc headers
+  <img width="730" alt="Screen Shot 2019-04-11 at 6 16 37 PM" src="https://user-images.githubusercontent.com/43215312/55996644-0291e680-5c86-11e9-8652-65a5e6475998.png">
+
+
 
