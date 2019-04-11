@@ -80,3 +80,15 @@ Asynchronous kernels provide a way for a callback to be called when computation 
 
 Tensorflow is an object oriented library.
 
+## 2. Defects
+I analyzed the following two issues and suggsted a solution for one of them:
+
+* Issue #27720 (https://github.com/tensorflow/tensorflow/issues/27720):
+  The issue does not require an architecture changing or adding a function to TensorFlow. I first tried to replicate and upgrade the tensorflow package in my system using ```conda install tensorflow ``` to install the latest package. However, the version was still 1.13.1. I then tried to find what is the latest version of TensorFlow available for conda and found that the highest version available is 1.13.1. 
+  
+<img width="631" alt="Screen Shot 2019-04-11 at 6 10 26 PM" src="https://user-images.githubusercontent.com/43215312/55996355-24d73480-5c85-11e9-8ffe-573c48fed10c.png">
+
+I therefore suggested the user to build the higher version for TensorFlow from build  
+<img width="652" alt="Screen Shot 2019-04-11 at 5 52 29 PM" src="https://user-images.githubusercontent.com/43215312/55996390-43d5c680-5c85-11e9-9ade-d6d5afed81b3.png">
+
+
